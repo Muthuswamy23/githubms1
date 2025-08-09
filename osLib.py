@@ -27,8 +27,11 @@ print("Items in current dir:", os.listdir())
 os.chdir(folder)
 print("now in:",os.getcwd())
 
-with open("hello.txt","w") as file:
-   file.write("hello! this is muthuswamy")
-   
-os.rename("hello.txt","greeting.txt")
-print("File size:", os.path.getsize("greeting.txt"), "bytes")
+#with open("hello.txt","w") as file:
+#   file.write("hello! this is muthuswamy")
+#   
+#os.rename("hello.txt","greeting.txt")
+#print("File size:", os.path.getsize("greeting.txt"), "bytes")
+os.chdir(r"c:\Users\ELCOT\Documents\RMgit")
+print("now in :",os.getcwd())
+os.rmdir("data")
